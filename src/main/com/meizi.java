@@ -72,7 +72,7 @@ public class meizi {
 
     public static void main(String[] args) {
         // 利用Jsoup获得连接
-        Connection connect = Jsoup.connect("https://bz.zzzmh.cn/#classify");
+        Connection connect = Jsoup.connect("HTTP://WWW.BAIDU.COM");
         try {
             // 得到Document对象
             Document document = connect.get();
